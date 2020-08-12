@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6893068309579576446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6893068309579576432}
+  - component: {fileID: 6893068309579576447}
+  m_Layer: 0
+  m_Name: AttackerHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6893068309579576432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6893068309579576446}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.13463163, y: 0.50497305, z: 5.6189966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6893068309579576447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6893068309579576446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c32c6c2a3c5b9428cdcf4ea5553bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escherichiaColi: {fileID: 3063490641524935499, guid: 81f9bdd387af0484a9e170e362a764f4,
+    type: 3}
+  tuberculosis: {fileID: 8829373715471689107, guid: e5630d68705d2da4b87fc877403519c5,
+    type: 3}
+  influenza: {fileID: 298183528069162365, guid: 43d9bfd135b2a5a4d89a48dedc1fdbbb,
+    type: 3}
+  coronavirus: {fileID: 1220924358322627036, guid: 67e8ce8251ff67e4393f6472837b5382,
+    type: 3}
+  tetanus: {fileID: 1322556149530030567, guid: 0fdacf0d298ec4b479c853cd3f98b915, type: 3}
+  malaria: {fileID: 5923308494741457729, guid: 0f9fa6481d9f2a3469752145b30c53fc, type: 3}
+  plague: {fileID: 338227833929974122, guid: 5c3ba03fec5b746459bbccfe0a63ce3f, type: 3}
+  ebola: {fileID: 5223979276003285839, guid: 4698095e09d618d41bc195411b5e6ebb, type: 3}
+  path: {fileID: 0}
+  player: {fileID: 0}
+  waveStarted: 0

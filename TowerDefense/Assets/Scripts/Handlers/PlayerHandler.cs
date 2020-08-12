@@ -11,6 +11,8 @@ public class PlayerHandler : MonoBehaviour
 
     private SceneHandler sceneHandler;
 
+    public bool godMode;
+
     // Public Methods
 
     public void AddCell(Cell c) {
@@ -42,8 +44,14 @@ public class PlayerHandler : MonoBehaviour
 
     private void Update()
     {
+        if (godMode) {
+            money = 99999;
+            health = 9999;
+        }
+
         if(health <= 0) {
             sceneHandler.LoadScene(5);
         }
+
     }
 }

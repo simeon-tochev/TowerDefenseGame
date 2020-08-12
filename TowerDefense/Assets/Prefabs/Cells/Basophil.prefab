@@ -98,11 +98,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placing: 0
-  timer: 0
   killCount: 0
   damageDone: 0
   cost: 650
   name: Basophile
+  type: 98
   upgrade1: Upgrade Slow Duration
   upgrade2: Upgrade Slow Strength
   upgrade1Done: 0
@@ -110,17 +110,14 @@ MonoBehaviour:
   upgrade1Cost: 500
   upgrade2Cost: 500
   info: 'Basophil. Slows down enemies. Upgrades: Slow strength and duration'
-  type: 98
-  projectile: {fileID: 3599235369317620637, guid: 308c903007d104e4f8b84d5ad7ab16eb,
-    type: 3}
-  player: {fileID: 0}
-  handler: {fileID: 0}
-  ui: {fileID: 0}
   circlePrefab: {fileID: 0}
   circle: {fileID: 0}
+  projectile: {fileID: 3599235369317620637, guid: 308c903007d104e4f8b84d5ad7ab16eb,
+    type: 3}
   cooldown: 2
   projectileSpeed: 15
   placeable: 0
+  handler: {fileID: 0}
   radius: 4
   slowTime: 7
   slowPercentage: 60
@@ -234,7 +231,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.85}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -245,7 +242,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 3.63, y: 2.07}
   m_EdgeRadius: 0
 --- !u!50 &8556023546970057391
 Rigidbody2D:

@@ -1,0 +1,30 @@
+0.1
+
+	3 Levels, with 40 waves each
+	
+	5 Cells
+	- Neutrophil
+	- Macrophag
+	- Lymphoid
+	- Basophil
+	- T-Cell
+	
+	8 Attackers
+	- E. Coli
+	- Tuberculosis
+	- Influenza
+	- Tetanus
+	- Malaria
+	- Coronavirus
+	- Plague
+	- Ebola
+	
+	3 Powerups
+	- Inflammation
+	- Vaccine
+	- Antibiotic
+	
+	2 Upgrades per cell
+
+
+0.2
